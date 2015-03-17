@@ -18,7 +18,7 @@ Navigate to the direcotry where you save your projects on your local machine
 
 Make a directory for your project
 
-`~/D/www $ mkdir wp-dev7-b `
+`~/D/www $ mkdir wp-dev7-b`
 `~/D/www $ cd wp-dev7-b`
 
 Now initailize the repository
@@ -27,6 +27,23 @@ Now initailize the repository
 
 Add this as the remote origin:
 
+`~/D/www/wp-dev7-b (master) $ git remote add origin https://github.com/acct2day/wp-website-2015.git`
+
+Pull from Github to local:
+
+`~/D/www/wp-dev7-b (master) $ git pull origin master`
+
+Now the files from git are copied to your local dir. You need to copy "local-config-sample.php" and rename your copy "local-config.php". Start your wamp server. Go to "http://localhost/phpmyadmin/" and create a database "wp-website-2015". Open "local-config.php" and update the database information.
+
+local-config.php - is in .gitignore so it is not commited to github.
+
+Open "http://localhost/wp-website-2015/" on your browser, you will be prompted to install wordpress on your local machine. If you are not redirected to the installation page, try this url "http://localhost/wp-website-2015/wp/wp-admin/install.php".
+
+Now, to make any changes you need to create a branch and checkout the branch. You never edit on master. You only merge to master.
+
+
+
+--------
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 
