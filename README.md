@@ -1,9 +1,31 @@
-### Well hello there!
+# Getting Started Instruction
 
-*uafthesis* is a LaTeX document cl
+## Before you start, Make sure you have 
 
-* `uafthesis.cls`: The class file itself.
-* 
+* wamp server installed
+* github account
+* git installed
+
+Login to your github
+
+You need to fork the project. Put in the search bar "user:acct2day repo:wp-website-2015". Then click on the link to the repo. Click on 'Fork' inside the 'wp-website-2015' repo to fork it. Now you have the repo forked in your git account.
+
+Run GIT Terminal
+
+Navigate to the direcotry where you save your projects on your local machine
+
+`~ $ cd /D/www/`
+
+Make a directory for your project
+
+`~/D/www $ mkdir wp-dev7-b `
+`~/D/www $ cd wp-dev7-b`
+
+Now initailize the repository
+
+`~/D/www/wp-dev7-b $ git init`
+
+Add this as the remote origin:
 
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
