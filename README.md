@@ -19,6 +19,7 @@ Navigate to the direcotry where you save your projects on your local machine
 Make a directory for your project
 
 `~/D/www $ mkdir wp-dev7-b`
+
 `~/D/www $ cd wp-dev7-b`
 
 Now initailize the repository
